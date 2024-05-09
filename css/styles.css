@@ -605,7 +605,7 @@ body {
   fill: transparent;
   width: 16px;
   height: 16px;
-  margin-right: 10px;
+  margin-right: 8px;
   border-radius: 2px;
   border: 1px solid var(--navy-blue-modal);
 }
