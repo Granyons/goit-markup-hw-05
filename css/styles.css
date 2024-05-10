@@ -680,14 +680,7 @@ body {
   .modal-form-checkbox-customize {
   outline: 1px solid var(--iris);
 }
-/* .modal-form-checkbox-customize-icon {} */
-.privacy-p-link {
-  line-height: 1.33;
-  text-decoration: underline;
-  text-decoration-skip-ink: none;
-  color: var(--iris);
-  cursor: pointer;
-}
+
 /* ----------- Button Submit ------------------- */
 .modal-form-submit {
   display: block;
