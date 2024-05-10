@@ -655,7 +655,13 @@ body {
   letter-spacing: 0.04em;
   color: var(--light-slate);
 }
-
+.privacy-p-link {
+  line-height: 1.33;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: var(--iris);
+  cursor: pointer;
+}
 .modal-form-checkbox-customize {
   display: inline-flex;
   justify-content: center;
