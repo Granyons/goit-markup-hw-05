@@ -506,7 +506,7 @@ body {
 }
 
 /* .subscribe-email-btn-icon {} */
-/* ******** MODAL-WINDOW ********************************************************** */
+/*  MODAL-WINDOW ********************************************************** */
 
 .backdrop {
   position: fixed;
@@ -517,8 +517,8 @@ body {
   height: 100%;
   z-index: 999;
 
-  opacity: 0;
-  visibility: hidden;
+  /* opacity: 0;
+  visibility: hidden; */
 
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -547,7 +547,7 @@ body {
   max-width: 360px;
   margin-bottom: 16px;
 }
-/*------------ modal-close-btn -------------- */
+/*-- == modal-close-btn == -- */
 .modal-close-btn {
   position: absolute;
   display: flex;
@@ -577,7 +577,7 @@ body {
   border: none;
 }
 
-/* ------------- Modal Form------------------------------------------------- */
+/* -- ====== Modal Form ====== -- */
 
 .modal-form-fild-wrapper {
   margin-bottom: 8px;
@@ -607,7 +607,7 @@ body {
   outline: transparent;
 }
 
-/* --------input-icon---------------------- */
+/* -- ==-input-icon = -- */
 .modal-form-input-icon {
   position: absolute;
   top: 50%;
@@ -619,7 +619,7 @@ body {
 .modal-form-input:focus + .modal-form-input-icon {
   fill: var(--iris);
 }
-/* -------- user-comment ------------------------ */
+/* -- == user-comment = -- */
 .modal-form-textarea {
   border: 1px solid var(--navy-blue-modal);
   border-radius: 4px;
@@ -642,7 +642,7 @@ body {
   letter-spacing: 0.04em;
   color: var(--navy-blue-modal);
 }
-/* -------- privacy-checkbox ----------------------------- */
+/* -- == privacy-checkbox  == -- */
 .modal-form-checkbox-wrapper {
   margin-top: 8px;
   margin-bottom: 24px;
@@ -687,7 +687,7 @@ body {
   outline: 1px solid var(--iris);
 }
 
-/* ----------- Button Submit ------------------- */
+/* -- == Button Submit == -- */
 .modal-form-submit {
   display: block;
   background-color: var(--iris);
