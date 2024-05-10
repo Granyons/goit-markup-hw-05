@@ -13,7 +13,7 @@
   --dairy: #fcfcfc;
 }
 
-/* ------ reset styles ----------------------------------------------------- */
+/* ------ reset styles --------------------------------- */
 h1,
 h2,
 h3,
@@ -43,7 +43,7 @@ a {
   color: inherit;
   text-decoration: none;
 }
-/* ------ page ------------------------------------------------------------- */
+/* ------ page ---------------------------------------- */
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--slate);
@@ -62,7 +62,7 @@ body {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-/* ------- title & text & logo ------------------------------------------------- */
+/* ----- title & text & logo -------------------------- */
 .title {
   font-weight: 700;
   font-size: 36px;
@@ -107,8 +107,7 @@ body {
   color: var(--iris);
 }
 
-/* **********************************************************************  */
-/*  ************* PAGE-HEADER *************************************** */
+/*  ******** PAGE-HEADER *************************************** */
 .header {
   border-bottom: 1px solid var(--cornflower);
   box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
@@ -123,14 +122,14 @@ body {
   display: flex;
   align-items: center;
 }
-/*  ------ Logo ------------------------------------------------------------  */
+/*  -- == Logo == --  */
 .logo-header {
   margin-right: 76px;
 }
 .logo-part {
   color: var(--navy-blue);
 }
-/* ------- Nav List ------------------------------------------------------- */
+/* -- == Nav List  == -- */
 .nav-list {
   display: flex;
   gap: 40px;
@@ -166,7 +165,7 @@ body {
   height: 4px;
 }
 
-/* ------- Address --------------------------------------------------------*/
+/* -- == Address  == --*/
 .address {
   font-style: normal;
   display: flex;
@@ -184,9 +183,8 @@ body {
 .address-link:focus {
   color: var(--ocean);
 }
-/* ****************************************************************************** */
-/* *********** PAGE-MAIN CONTENT ****************************************** */
-/* =========== HERO SECTION ================================================== */
+/* *******  MAIN PAGE CONTENT ****************************************** */
+/* ========= HERO SECTION ================================================== */
 .hero-section {
   background-color: var(--navy-blue);
   max-width: 1440px;
@@ -215,7 +213,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-/* -------- Hero-Button ----------------------------------------------------- */
+/* -- == Hero-Button == -- */
 .hero-button {
   display: block;
   background-color: var(--iris);
@@ -307,7 +305,7 @@ body {
 .team-item-box .text {
   margin-bottom: 8px;
 }
-/* ----- Team Social List ------------------------------------------ */
+/* -- == Team Social List - ==-- */
 
 .team-social-list {
   display: flex;
@@ -335,7 +333,7 @@ body {
   height: 40px;
 }
 
-/* =========== PORTFOLIO SECTION ======================================== */
+/* ======= PORTFOLIO SECTION ======================================== */
 .portfolio-section-title {
   margin-bottom: 72px;
 }
@@ -360,7 +358,7 @@ body {
 .portfolio-under-title {
   margin-bottom: 8px;
 }
-/* ------ portfolio-overley -------------------------------------------- */
+/* -- == portfolio-overley == -- */
 .portfolio-overley-wrapper {
   position: relative;
   overflow: hidden;
@@ -392,8 +390,7 @@ body {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
-/* ***************************************************************************** */
-/* ************PAGE FOOTER**************************************************************** */
+/* **** PAGE FOOTER **************************************************************** */
 .footer {
   background-color: var(--navy-blue);
   padding-top: 100px;
@@ -420,7 +417,7 @@ body {
 
   width: 264px;
 }
-/* --------- footer Social List -------------------------------- */
+/* -- == footer Social List == -- */
 .footer-social-box {
   margin-right: 80px;
 }
@@ -453,18 +450,18 @@ body {
 .footer-social-link:focus {
   background-color: var(--green);
 }
-/* ---------- subscribe-footer-box ---------------------- */
+/* -- == subscribe-footer-box  == -- */
 
 .footer-subscribe-form {
   display: flex;
+  gap: 24px;
 }
-/* .subscribe-email-label {} */
+
 .subscribe-email-input {
-  background-color: var(--navy-blue);
+  background-color: transparent;
   min-width: 264px;
   height: 40px;
   padding: 8px 16px;
-  margin-right: 24px;
 
   color: #ffffff;
   font-weight: 400;
@@ -486,7 +483,8 @@ body {
   min-width: 165px;
   height: 40px;
   padding: 8px 24px;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
 
   color: var(--white);
   font-weight: 500;
@@ -504,8 +502,9 @@ body {
 .subscribe-email-btn:focus {
   background-color: var(--green);
 }
-
-/* .subscribe-email-btn-icon {} */
+.subscribe-email-btn-icon {
+  margin-left: 16px;
+}
 /*  MODAL-WINDOW ********************************************************** */
 
 .backdrop {
@@ -537,6 +536,9 @@ body {
   min-height: 584px;
   border-radius: 4px;
   padding: 72px 24px 24px 24px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-text {
   font-weight: 500;
@@ -600,6 +602,7 @@ body {
   border-radius: 4px;
   padding-left: 38px;
   background-color: transparent;
+  outline: transparent
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-input:focus {
